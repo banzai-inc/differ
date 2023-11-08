@@ -2,21 +2,25 @@
 
 A library for diffing, and patching, Clojure(script) datastructures.
 
+This is a forked from [robinheghan/differ](https://github.com/robinheghan/differ) to address some issues.
+
 ## Motivation
 
-I wanted to implement an auto-save feature for my Clojurescript web-app. To be efficient, only the actual changes should be sent to the backend. `clojure.data/diff` is not the easiest function to work with for several reasons, and there didn't seem to be any good alternatives, so differ was born.
+> I wanted to implement an auto-save feature for my Clojurescript web-app. To be efficient, only the actual changes should be sent to the backend. `clojure.data/diff` is not the easiest function to work with for several reasons, and there didn't seem to be any good alternatives, so differ was born.
+
+- [@robinheghan](https://github.com/robinheghan) Robin Heggelund Hansen
 
 ## Setup
 
-Add the following the to your `project.clj`:
-
-[![Clojars Project](http://clojars.org/differ/latest-version.svg)](http://clojars.org/differ)
-
-Or git coordinates in deps.edn:
+This fork is available by adding git coordinates in deps.edn:
 
 ```clojure
-  :deps {io.github.robinheghan/differ {:git/tag "THE_TAG" :git/sha "THE_SHA"}}
+  :deps    {io.github.jeremyrsellars/differ {:git/tag "v0.4.0-alpha" :git/sha "17e0b343bb636d8a397673cc3fbb5e70e01a5fd7"}}
 ```
+
+For the original project, add the following the to your `project.clj`:
+
+[![Clojars Project](http://clojars.org/differ/latest-version.svg)](http://clojars.org/differ)
 
 ## Usage
 
