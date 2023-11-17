@@ -15,12 +15,8 @@ This is a forked from [robinheghan/differ](https://github.com/robinheghan/differ
 This fork is available by adding git coordinates in deps.edn:
 
 ```clojure
-  :deps    {io.github.jeremyrsellars/differ {:git/tag "v0.4.0-alpha" :git/sha "17e0b343bb636d8a397673cc3fbb5e70e01a5fd7"}}
+  :deps    {io.github.banzai-inc/differ {:git/tag "v0.4.0" :git/sha "08e964af0ccfc2149a4ba98de1498cb640d6af0c"}}
 ```
-
-For the original project, add the following the to your `project.clj`:
-
-[![Clojars Project](http://clojars.org/differ/latest-version.svg)](http://clojars.org/differ)
 
 ## Usage
 
